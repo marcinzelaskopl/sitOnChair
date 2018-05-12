@@ -1,5 +1,5 @@
 * {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Raleway', sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -35,6 +35,11 @@ nav li {
     display: inline-block;
 }
 
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
 .container {
     height: 700px;
     width: 100%;
@@ -66,10 +71,112 @@ nav li {
     background-repeat: no-repeat;
     background-position: center;
 }
-.arrow-right {
-    width: 0;
-    height: 0;
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent;
-    border-left: 20px solid springgreen;
+
+.button-see-more {
+    border-radius: 28px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left:85px;
+    position: relative;
+    color: white;
+    width: 250px;
+    height: 50px;
+    background-color: springgreen;
+}
+
+.button-see-more:hover {
+    box-shadow: 0 0 15px grey;
+    cursor: pointer;
+}
+
+.button-see-more a{
+    text-decoration: none;
+    color: white;
+}
+
+.button-see-more span {
+    position: absolute;
+    vertical-align: center;
+    line-height: 50px;
+    left: 65px;
+}
+
+.clear-fix {
+    clear: both;
+}
+/*.arrow-right {*/
+    /*width: 0;*/
+    /*height: 0;*/
+    /*border-top: 20px solid transparent;*/
+    /*border-bottom: 20px solid transparent;*/
+    /*border-left: 20px solid springgreen;*/
+/*}*/
+
+.small-box {
+    float: left;
+    width: 31.333%;
+    height: 300px;
+}
+
+#first-chair {
+    position: relative;
+    margin: 10px;
+    background-image: url("../images/box1_img.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.clair {
+    z-index: 5;
+    width: 300px;
+    border-bottom: 10px solid springgreen;
+    display: inline-block;
+    position: absolute;
+    top: 210px;
+    left: 70px;
+}
+
+
+.clair-uppercase {
+    text-transform: uppercase;
+}
+
+.border {
+    z-index: 2;
+    bottom: 50px;
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    background-color: rgba(255,255,255, 0.4);
+}
+#second-chair {
+    position: relative;
+    margin: 10px;
+    background-image: url("../images/box2_img.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#box-content {
+    margin-top: 10px;
+    border: 1px solid grey;
+    text-align: center;
+}
+#box-content h4 {
+    display: inline-block;
+    text-decoration-color: springgreen;
+    text-align: left;
+    margin-top: 30px;
+    margin-right: 450px;
+    border-bottom: 10px solid springgreen;
+}
+
+
+#box-content p {
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: justify;
+    margin-top: 30px;
 }
