@@ -2,59 +2,74 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Sit on Our Chair!</title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.js"></script>
 </head>
 <body>
-<header>
-    <h1>Sit <span>on</span> Chair</h1>
-    <nav>
-        <ul>
-            <li><a href="#">O firmie</a></li>
-            <li><a href="#">Galeria</a></li>
-            <li><a href="#">Kontakt</a></li>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
         </ul>
-    </nav>
-</header>
-<section>
-    <div class="container">
-        <div class="medium-box">
-            <h1>Sit <span class="green-text">on</span> Our <span class="green-text">Chair</h1>
-            <!--<p class="arrow-right"></p>-->
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dapibus enim massa, sed laoreet quam malesuada scelerisque. Duis dapibus pellentesque tortor, a tincidunt augue finibus vitae. Maecenas ullamcorper mollis lobortis. Aenean suscipit velit at lacus tempor, eget mollis ligula sodales. Nunc ac rutrum orci.</p>
-            <div class="button-see-more">
-                <span><a href="#">Zobacz wiecej</a></span>
+    </div>
+</nav>
+<div class="container-fluid section-first">
+    <div class="row">
+        <div class="col-6 chair-img">
+            <div class="arrow1">&#8249;</div>
+        </div>
+        <div class="col-6 chair-txt">
+            <div class="arrow2">&#8250;</div>
+            <h1 class="text-center">SIT <span>ON</span> OUR <span>CHAIR</span></h1>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid commodi
+                cupiditate
+                debitis distinctio ea eos iure laboriosam, laborum, laudantium magni modi numquam possimus praesentium quas quasi quis ut voluptatem?</p>
+            <button type="button" class="btn">Success</button>
+        </div>
+    </div>
+</div>
+<!--first section ends here-->
+<div class="container-fluid section-second">
+    <div class="row">
+
+        <div class="col-lg-4 first-image section-second">
+            <p class="on-text"><span class="thickness">Chair CLAIR</span></p>
+        </div>
+        <div class="col-lg-4 second-image section-second">
+            <p class="on-text"><span class="thickness">Chair MARGHARITA</span></p>
+        </div>
+        <div class="col-lg-4 text-image section-second">
+            <h2>FINDS ALL INPUTS</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad culpa dolore est, eveniet facilis hic ipsam molestiae molestias nam nobis perspiciatis qui reiciendis sapiente sint tempora temporibus unde, ut?</p>
             </div>
         </div>
-        <div class="medium-box chair">
-
-        </div>
     </div>
-    <div class="clear-fix">
+<!--end of second section-->
 
-    </div>
-    <section>
-    <div class="section-container">
-        <div id="first-chair" class="small-box">
-            <p class="clair"><b>Chair <span class="clair-uppercase">Clair</span></b></p>
-            <div class="border">
-
-            </div>
-        </div>
-        <div id="second-chair" class="small-box">
-            <p class="clair"><b>Chair <span class="clair-uppercase">Margharita</span></b></p>
-        </div>
-        <div class="border-second-chair">
-
-        </div>
-        <div id="box-content" class="small-box">
-            <h4>Find all inputs</h4>
-            <p>Find all inputs that are not checked and highlights the next sibling span. Notice there is no change when clicking the checkboxes since no click events have been linked. </p>
-            <p>Notice there is no change when clicking the checkboxes since no click events have been. Notice there is no change when clicking the checkboxes since no click events have been</p>
-        </div>
-    </div>
-    </section>
-</section>
 </body>
 </html>
